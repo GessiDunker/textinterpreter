@@ -1,0 +1,33 @@
+#text = "This is a sample sentence with some adjectives like beautiful, sunny, and huge."
+text = "the dat was beautiful, sunny, and huge."
+#tokens = word_tokenize(text)
+#tagged = pos_tag(tokens)
+
+
+    #pattern = "NP: {<DT>?<JJ>*<NN>}"  # This is a simple noun phrase pattern
+    #cp = RegexpParser(pattern)
+    #result = cp.parse(tagged)
+    #print(result)
+
+
+    #adjectives = [word for word, pos in tagged if pos == 'JJ']
+    #print(adjectives)
+    #nn = [word for word, pos in tagged if pos == 'NN']
+    #print(nn)
+
+
+    #check if nltk is working
+    #print(brown.words())
+
+
+    #Loop through the tagged tweets
+    JJ_count = 0
+    NN_count = 0 
+    for pair in tags:
+        #print(pair)
+        tag = pair[1]
+        if tag == 'JJ':
+            JJ_count += 1
+        if tag == 'NN':
+            NN_count +=1
+    #print("JJ", JJ_count, "NN", NN_count)

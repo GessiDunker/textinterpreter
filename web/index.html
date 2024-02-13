@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>POS Tag Counts</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 5px;
+      text-align: left;
+    }
+  </style>
+    <script>
+      function displayCurrentTime() {
+          var timeString = new Date().toLocaleTimeString();
+          document.getElementById('currentTime').innerHTML = 'Contagem de termos - ' + timeString;
+      }
+  </script>  
+</head>
+
+<body onload="displayCurrentTime()">
+  <h2 id="currentTime">Texto da function
+    <script>const time = document.getElementById('time'); time.innerHTML = new Date().toLocaleTimeString();</script>
+  </h2>
+
+  <table>
+    <tr>
+      <th>Termo</th>
+      <th>Qtd no texto</th>
+      <th>% no texto</th>
+      <th>Qtd no GPT</th>
+      <th>% no GPT</th>
+    </tr>
+    <!-- Table Rows -->
+    {% for term, count_human, count_gpt in combined_tag_counts %}
+    <tr>
+      <td>{{ term }}</td>
+      <td style="text-align: center;">{{ count_human }}</td>
+      <td style="text-align: center;">{{ (count_human / total_human * 100) | round(2) }}%</td>
+      <td style="text-align: center;">{{ count_gpt }}</td>
+      <td style="text-align: center;">{{ (count_gpt / total_gpt * 100) | round(2) }}%</td>
+    </tr>
+    {% endfor %}
+    <tr>
+      <td>Total de palavras</td>
+      <td style="text-align: center;">{{ total_human }}</td>
+      <td></td> <!-- Empty cell for the percentage column -->
+      <td style="text-align: center;">{{ total_gpt }}</td>
+      <td></td> <!-- Empty cell for the percentage column -->
+    </tr>
+</table>
+
+</body>
+
+</html>
