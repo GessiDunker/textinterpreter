@@ -28,7 +28,7 @@ def get_pos_tag_counts(file_name):
 app = Flask(__name__, template_folder='web')
 
 full_tagged_human, total_words_human = get_pos_tag_counts("text-human.txt")
-full_tagged_gpt, total_words_gpt = get_pos_tag_counts("text-gpt2.txt")
+full_tagged_gpt, total_words_gpt = get_pos_tag_counts("text-gpt.txt")
 
 all_keys = set(full_tagged_human.keys()) | set(full_tagged_gpt.keys())
 table_tag_counts = []

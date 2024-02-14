@@ -1,0 +1,16 @@
+Write a text, as if you were a character with the following parameters
+Discipline: English
+Student Level: Third Year Graduate
+Sex: Female
+Native speaker status: NNS (L1: Chinese)
+Paper type: Creative Writing
+
+The text must:
+"Capture the Essence of Navigating a High-Stakes Tech Expo as a College Student"
+Here is the text prompt, but remember that you must write in the first person respecting the previous characteristics: 
+
+Write a detailed narrative that immerses the reader in the whirlwind experience of a college student attending their first major Tech Expo. The story should start by setting the scene of anticipation and the colossal amount of preparation that goes unnoticed in the glossy event brochures. Highlight the contrast between the veterans' strategic planning and the raw enthusiasm of newcomers, exploring the event's reputation as a rigorous battleground for securing employment in the tech industry. Describe the emotional rollercoaster experienced by participants, from anxiety to disillusionment, through the lens of a protagonist who likens themselves to a modern-day gladiator, armed not with weapons but with resumes and a determination to succeed.
+
+As the narrative unfolds, delve into the divide between the inexperienced attendees, who view the expo as a treasure hunt filled with promotional goodies and the seasoned upperclassmen who are all too aware of the challenges ahead. Illustrate the protagonist's meticulous preparation for the event, from choosing the perfect outfit to rehearsing their elevator pitch, emphasizing the importance of first impressions and the subtle cues that can make or break an interaction with recruiters. Include anecdotes of peers competing for the same positions and the collective transformation of the student body's appearance on the day of the expo, underscoring the competitive yet hopeful atmosphere.
+
+Conclude with reflections on the importance of not just aiming for immediate job offers but opening doors for future opportunities, underscoring the protagonist's growth and insights gained from the expo experience. The narrative should blend vivid descriptions, emotional depth, and practical advice, offering readers a comprehensive view of the highs and lows of navigating a tech expo as a college student.
